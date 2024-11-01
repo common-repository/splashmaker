@@ -1,0 +1,1684 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /* GLOBAL ADMIN STYLES */
+ /* body {
+    font-size: 14px;
+} */
+
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    font-weight: 600;
+}
+h2, h3 {
+    color: #23282d;
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+.margin-top-zero {margin-top: 0px!important;}
+.margin-bottom-zero {margin-bottom: 0px!important;}
+.margin-left-zero{margin-left: 0px!important;}
+.margin-top-15px {margin-top: 15px!important;}
+.margin-bottom-8px{margin-bottom: 8px!important;}
+.field-label-margin-b{margin-bottom: 4px!important;}
+.margin-bottom-12px {margin-bottom: 12px!important;}
+.margin-bottom-19px {margin-bottom: 19px!important;}
+.margin-19px{ margin-top: 19px !important; margin-bottom: 19px !important; }
+
+/* .widefat td, .widefat td ol, .widefat td p, .widefat td ul {
+    font-size: 14px;
+} */
+/* MATCHING HEADING ACROSS PAGES */
+.wp-heading-inline {
+    padding-top:  0 !important;
+    margin-bottom:  0 !important;
+}
+/* PERSONALIZATION FORM STYLES*/
+.remove {
+    vertical-align: middle !important;
+    cursor: default !important;
+}
+.add {
+    vertical-align: middle !important;
+    cursor: default!important;
+}
+.block input {
+    vertical-align: middle;
+}
+.header__inner{
+    background: linear-gradient(90deg, rgba(27,117,187,1) 0%, rgba(46,135,199,1) 40%, rgba(81,170,222,0.7903536414565826) 100%);
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .header__text {
+    width: 100%;
+}
+
+
+span.connect-now {
+    top: 1em;
+    position: relative;
+}
+.splash-list {
+    margin: 2em auto;
+    border: 1px solid #eee;
+    /*padding: 1em;*/
+}
+.splash-list {
+    margin: 2em auto;
+}
+.divstyle {
+    margin: 2em auto;
+}
+.content_splash {
+    line-height: 2.5;
+}
+
+.formHeading {
+   
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.table_field {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+.sp_entry_row {
+    margin: 1em auto;
+}
+.field_style {
+    margin: 7px auto;
+}
+.splash_head_div {
+    float: left;
+    width: 80%;
+    /* padding: 8px 20px; */
+}
+.splash_panel_content {
+    padding: 1em;
+}
+.splash_panel {
+    border: 1px solid #e8e8e8;
+    margin: 1em auto;
+}
+.splash_head {
+    background: #f6f6f6;
+    border: 1px solid #e8e8e8;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.form_mapping_left {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.form_mapping_right {
+    float: left;
+    width: 70%;
+    padding-right: 20px;
+}
+/***************************splash***************************************/
+
+.hubspot_fields {
+    float:left;
+    width: 70%;
+}
+.subheading {
+    margin: 1em 0px 1em 0px;
+}
+.splash-box {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  padding: 0px 12px 12px;
+}
+.splash-input {
+    width: 35%;
+    padding: 0.5em;
+}
+.add_new_qa {
+    float: right;
+}
+.splash_script th {
+    display: none;
+}
+.splash-outter-box {
+    margin-top: 2%;
+}
+
+.crm_fields_table {
+    width: 100%;
+    margin-top: 30px;
+}
+.crm_fields_table .crm_field {
+    margin: 20px 0px;
+}
+.crm_fields_table .crm_field_cell1 {
+    width: 219px;
+    min-width: 100px;
+    float: left;
+    display: inline-block;
+    line-height: 26px;
+}
+.crm_fields_table .crm_field_cell2 {
+    width: 80%;/*
+    float: left;
+    display: inline-block;*/
+}
+.crm_fields_table .crm_field_cell1 label {
+    font-weight: bold;
+    font-size: 14px;
+}
+.crm_fields_table .crm_text {
+    width: 100%;
+}
+
+.clr-white {
+    color: #fff;
+}
+
+ .label-heading {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+a.button.learn_more_sp {
+    float: right;
+    padding: 8px 21px;
+    line-height: 25px;
+    margin-top: -10px;
+    font-size: 15px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.header__inner__page{
+     margin-bottom: 15px;
+    margin-top: 23px;
+    /*float: left;
+    width: 97.7%;*/
+}
+body.edit-php.post-type-dynamic_content div#screen-meta-links {
+    display: none;
+}
+body.edit-php.post-type-dynamic_content div#wpbody-content > header{
+    margin-top: 23px;
+}
+
+
+
+.splashmaker_page_splash_activation_dashboard .sec__video .button-primary a{color: #fff;margin-top: 12px;}
+/*.wp-core-ui.auto-fold .button-primary, .button-primary a {color: #fff;} Commented by kuldeep*/
+i.fa.fa-question-circle {
+    color: grey;
+    margin-right: 3px;
+    font-size: 13px;
+}
+
+input.bg_blue {
+    background-color: rgb(204, 231, 248);
+}
+
+.form_container {
+    margin-bottom: 15px;
+}
+
+.sm_section1 .exit_btn{
+    border-color: #0e76bc;
+}
+/*.wp-core-ui .button */
+
+.exit_btn a {
+    color: #0e76bc;
+}
+
+
+
+
+.splashmaker_page_splash_form_gate input#submit_color {
+    margin-top: 12px;
+}
+
+.block input.col3_width {
+    background-color: #cce7f8;
+}
+
+
+/***************************************** analytics list*************************************** */
+
+.list-box1 {
+    width: 25.1%;
+    float: left;
+    overflow: hidden;
+    display: block;
+}
+
+.list-desc {
+    display: block;
+    overflow: hidden;
+}
+
+.data_point {
+    margin-top: 2em;
+}
+
+.col1 {
+    padding: 0.6em 1em;
+    border: 1px solid #7e8993;
+    border-radius: 5px;
+    background: #eeeeee;
+}
+
+.sec-analytic {
+    font-size: 14px;
+}
+
+.col1_width {
+    width: 20% !important;
+    float: left;
+}
+
+.bg_blue {
+    width: 100%;
+    max-width: 262px;
+}
+
+.col2_width {
+    width: 15% !important;
+    float: left;
+    margin-left: 8px;
+}
+
+.col3_width {
+    float: left;
+    width: 20%;
+    margin-left: 8px;
+}
+
+.block .button.add {
+    margin-left: 0px;
+}
+
+.block .button {
+    float: left;
+    margin-left: 8px;
+}
+
+
+/* ******************************************** hubspot logo section ****************************************** */
+
+.section-desc {
+    overflow: hidden;
+    display: block;
+}
+
+.img-logo {
+    float: left;
+}
+
+img.thumbnail-logo {
+    width: 45px;
+    position: relative;
+    top: 6px;
+}
+
+.connect_btn {
+    width: 91.86px;
+}
+
+th#id {
+    width: 100px;
+}
+
+th#status {
+    width: 15%;
+}
+
+th#contact_id {
+    width: 15%;
+}
+
+th#response {
+    width: 40%;
+}
+
+/* ******************************************splashmaker logo***************************************** */
+
+#toplevel_page_splashmaker .wp-menu-image.dashicons-before img {
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+    box-sizing: unset;
+}
+
+
+/* ***************************************all button **********************************/
+
+.remove,
+.add {
+    cursor: pointer !important;
+}
+
+.block input {
+    vertical-align: middle;
+}
+
+
+
+
+/* ****************************************Personalization form***************************************** */
+.disclaimer-section {
+    width: 67%;
+}
+.custom-fields {
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+
+.custom-fields .block_added_field {
+    float: left;
+    width: 100%;
+}
+
+.custom-fields .hubspot_sec {
+    float: left;
+    display: inline-flex;
+}
+
+.custom-fields .hubspot_token {
+    float: left;
+    display: inline-flex;
+}
+
+.form_sec input {
+    width: 70% !important;
+    margin-right: 0.5em;
+}
+
+input#custom_field_label {
+    width: 99%;
+}
+
+.splash-outter-box .reorder:hover {
+    cursor: grabbing;
+}
+
+select#field_label {
+    width: 100%;
+}
+
+.email .col2_width {
+    border-radius: 4px;
+    border: 1px solid #8c8f94 !important;
+    background-color: #f0f0f1 !important;
+    color: #2c3338 !important;
+}
+
+.block {
+    overflow: hidden;
+    display: block;
+    clear: both;
+    margin-top: 12px;
+}
+
+.section1 {
+    float: left;
+    width: 21%;
+    font-weight: 700;
+}
+
+.section2 {
+    float: left;
+    width: 15%;
+    font-weight: 700;
+}
+
+.section3 {
+    font-weight: 700;
+}
+
+
+/* personalization top tip */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 287px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    padding: 5px 20px;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .6s;
+    /*top: -30px;*/
+    top: -8px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.tooltip-top {
+   z-index: 9999; 
+   
+}
+
+input.token_field {
+    width: 19%;
+}
+
+span.button.button-default {
+    vertical-align: middle;
+}
+
+.tooltip {
+    position: absolute;
+    display: inline-block;
+    color: #006080;
+    cursor: help;
+   /* z-index: 9999; */
+    margin-left: 2px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-top::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+
+.datepoint-toltip span.tooltiptext.tooltip-top:after {
+    top: 16px!important;
+}
+
+.block.email .tooltip {
+    display: inline-block;
+}
+
+.swal-icon.swal-icon--warning {
+    border-color: #FF7A59 !important;
+}
+
+.swal-icon--warning__body,
+.swal-icon--warning__dot {
+    background-color: #FF7A59 !important;
+}
+
+
+/* *********************************hubspot mapping design***************************************** */
+
+.setting_field {
+    margin: 20px 0px;
+}
+
+.map_to {
+    text-decoration: none;
+    /* padding: 0px 17%; */
+}
+
+.heading {
+    font-weight: 700;
+}
+
+.personaliztion_field {
+    overflow: hidden;
+    display: block;
+}
+
+.hubspot_sec {
+    float: left;
+    width: 29%;
+}
+
+.form_sec {
+    float: left;
+    width: 25%;
+}
+
+.hubspot_sec select {
+    width: 98%;
+}
+
+.hubspot_token input {
+    vertical-align: middle;
+    width: 200px;
+}
+
+.container_sec {
+    clear: both;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+
+.setting_btn {
+    float: left;
+}
+
+.sm_section1 {
+    float: left;
+}
+
+.exit_btn {
+    position: relative;
+    top: 1em;
+    float: right;
+}
+
+.form_sec select {
+    width: 70%;
+    margin-right: 0.5em;
+}
+
+
+/* **************************dynamic content driver section**************************  */
+
+.dynamic_section {
+    /*line-height: 2;*/
+    margin-bottom: 2em;
+}
+
+.dynamic_content {
+    width: 15%;
+}
+
+select.dynamic_content {
+    border-radius: 4px;
+    border: 1px solid #8c8f94 !important;
+    /* background-color: #f0f0f1 !important; */
+    color: #2c3338 !important;
+}
+
+
+/* ************************************pages header logo ********************************** */
+
+.icon img {
+    width: 30px;
+ 
+}
+
+.icon {
+    position: relative;
+    margin-right:  12px;
+}
+.splash_header {
+    clear: both;
+    display: flex;
+    align-items: center;
+    margin-bottom:  16px;
+}
+.splashmaker_page_splash_activation_dashboard .splash_header {
+    margin-bottom:  0 !important;
+}
+h1.personalization-form-label {
+    padding-top:  0;
+    padding-bottom:  0;
+}
+
+/* **********************************************Integration script**************************************************** */
+
+.splash-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 0px 12px 12px;
+}
+
+.splash-input {
+    width: 35%;
+    padding: 0.5em;
+}
+
+.add_new_qa {
+    float: right;
+}
+
+
+/* ***************************************pop up hide from backend*************************** */
+
+div#pop-up-content {
+    display: none !important;
+}
+
+
+/* *****************************************************Splash_maker Platform Integration************************************************** */
+
+.sm_button {
+    position: relative;
+    margin-left: 2em;
+    width: 51%;
+    margin: 0 auto;
+}
+
+.sm_section1 {
+    float: left;
+    padding-bottom: 2em;
+    width: 33%;
+}
+
+.exit_btn a {
+    text-decoration: none;
+}
+
+
+/* ************************************  drag reoder***************************************** */
+
+.splash-outter-box .reorder {
+    margin-left: 6px;
+    position: relative;
+    width: 14px;
+    top: 4px;
+}
+
+img.reorder1 {
+    margin-left: 6px;
+    position: relative;
+    width: 18px;
+    top: 3px;
+
+}
+
+span.re-disabled{
+    pointer-events:none;
+    cursor: default;
+}
+
+.remove-tip {
+    font-size: 14px !important;
+}
+
+form#splash_savee .block1 {
+    margin-bottom: -7px;
+    margin-top: 12px;
+}
+
+/* ***************************splashmaker link*********************************** */
+
+.smlink {
+    width: 32%;
+    margin-right: 8px;
+}
+
+
+/* ?**************************** All plugin Submit button colour******************************** */
+
+
+/*.splashmaker_page_splash_form_gate input#submit_color {
+    background: #d4504c;
+    border-color: #d4504c;
+}*/
+
+input.col1_width {
+    text-transform: capitalize;
+}
+
+
+/****************************Media Query************************************************** */
+
+@media only screen and (max-width: 1170px) {
+    /* for hubspot mapping */
+    .form_sec select {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 828px) {
+    /* for analytics */
+    .list-box1 {
+        width: 45%;
+    }
+    .sm_section1 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    /* for analytics */
+    .list-box1 {
+        width: 100%;
+    }
+    .sm_section1 {
+        width: 100%;
+    }
+    .sm_button {
+        width: 20%;
+    }
+}
+
+
+/* new css code start here */
+
+
+/* hubsopt account connectin page css*/
+
+.swal-icon.swal-icon--warning {
+    border-color: #FF7A59;
+}
+
+.swal-button--danger {
+    background-color: #d4504c;
+}
+
+.swal-text {
+    padding: 0 1em;
+    text-align: justify;
+}
+
+code {
+    font-size: 120%;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    overflow: scroll;
+}
+
+
+/* hubspot datapoint*/
+
+/* #cb {
+    width: 5%;
+} */
+
+
+/* hubsopt account connection */
+
+h2,
+h3 {
+    color: #23282d;
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+
+img {
+    height: auto;
+    align-content;
+}
+
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em
+}
+
+a.label:focus,
+a.label:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.label:empty {
+    display: none
+}
+
+.btn .label {
+    position: relative;
+    top: -1px
+}
+
+.label-default {
+    background-color: #777
+}
+
+.label-success {
+    background-color: #5cb85c
+}
+
+.label-success[href]:focus,
+.label-success[href]:hover {
+    background-color: #449d44
+}
+
+th#id {
+    width: 100px;
+}
+
+.title-help {
+    float: left
+}
+
+.fa-question-circle-help {
+    top: 2px;
+    position: relative;
+}
+
+.tooltip-top-helper {
+    top: -54px;
+}
+
+.save-api-help {
+    margin-top: 10px;
+}
+
+.sf_login-help {
+    text-align: center;
+}
+
+
+/*hubsopt mapping page */
+
+.main_save {
+    float: left;
+    margin-right: 8px !important;
+}
+
+.splash-outter-box span {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.splash-outter-box table,
+.splash-outter-box th,
+.splash-outter-box td {
+/*     border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+.splash-outter-box th,
+.splash-outter-box td {
+    padding: 5px;
+    text-align: left;
+}
+
+.splash-outter-box select[readonly] {
+    background-color: #f0f0f1;
+}
+
+.splash-outter-box select[readonly]::-ms-expand {
+    display: none;
+}
+
+.splash-outter-box select[readonly] {
+    pointer-events: none;
+}
+
+.splash-outter-box input.bg_blue {
+    background-color: #cce7f8;
+}
+
+.splash-outter-box .standard_field {
+    background: #f0f0f1 !important;
+    border-radius: 4px;
+    border: 1px solid #8c8f94 !important;
+    pointer-events: none;
+}
+
+.block .button.add_widget_field {
+    margin-left: 0px;
+}
+
+
+/*platform integration page */
+
+.sm_section1 {
+    float: left;
+    width: 50%;
+}
+
+.custom_btn_setting a {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 10px 7px 10px;
+    border: 1px solid #0E76BC;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+.sec_image {
+    height: 120px;
+    margin-top: 15px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.sec_image img {
+    max-width: 240px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 828px) {
+    /* for hubspot mapping */
+    .column {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .sm_section1 {
+        width: 100%;
+    }
+}
+
+
+/* hubsopt form entry page */
+
+.splash-formlist {
+    width: 98%;
+    padding: 1em;
+}
+
+.splash-formlist table tr th {
+    padding: 8px 10px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.splash_body tr {
+    padding: 11px 0 0 3px;
+}
+
+.splash_thead {
+    text-align: left;
+}
+
+
+
+
+/* form popup */
+
+/*.wp-core-ui .button-primary {
+    border-color: #0e76bc;
+}*/
+
+/*.wp-core-ui .button-secondary,*/
+.tooltip {
+    color: #0e76bc;
+}
+
+input#submit {
+    color: white;
+}
+
+i.fa.fa-question-circle {
+    color: grey;
+    margin-right: 3px;
+}
+
+.seprat {
+    width: 146px;
+    margin-left: 167px !important;
+    margin-top: 12px;
+    float: left;
+    clear: both;
+}
+
+.seprat input {
+    width: 100% !important;
+}
+
+.splash-outter-box select.disabled,
+.splash-outter-box select:disabled {
+    color: #2c3338;
+    border: 1px solid #8c8f94 !important;
+    background: #f0f0f1 !important;
+}
+
+.col3_width input {
+    width: 100%;
+}
+
+input.bg_blue {
+    background-color: #cce7f8;
+}
+
+.seprated_option {
+    background-color: #eeeeee !important;
+}
+
+.wp-switch-editor.switch-tmce {
+    display: none;
+}
+
+.wp-switch-editor.switch-html {
+    display: none;
+}
+
+
+/*activate dashboard */
+
+/* border: 1px solid red; */
+.btn-help {
+    color: green !important;
+}
+
+/* .deactivate a {
+    color: red;
+    background-color: #f3f5f6;
+    cursor: pointer
+} */
+
+input#activate {
+    cursor: pointer;
+}
+
+input#activation_code {
+    font-size: 14px;
+}
+
+input#email {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+/* .wp-editor-container {width: 34.3%;} */
+.setting_btn {width: 75%;}
+}
+@media (max-width: 767px) {
+.wp-editor-container {width: 100%;}
+.setting_btn {width: 50%;}
+}
+
+
+span.remove.re-disabled {
+    opacity: 0.5 !important;
+}
+
+.crm_field_cell2 .sf_login.connect_btn.sf_login-help {
+    color: #fff;
+}
+/*kuldeep*/
+/* Code for Firefox */
+input.clickToCopy::-moz-selection { 
+  color: #2c3338;
+  background-color: rgb(160, 206, 250);
+  /*background: #cce7f8;*/
+}
+
+input.clickToCopy::selection {
+  color: #2c3338;
+  background-color: rgb(160, 206, 250)
+}
+
+/*input.clickToCopy.active{
+    background-color: rgb(160, 206, 250) !important; 
+}
+input.clickToCopy{
+    background-color: #cce7f8 !important; 
+}*/
+/*kuldeep*/
+/* input#clickToCopy_0 {
+    width: 30%;
+} */
+
+
+/* Smart CTA Page CSS */
+.row:after {content: "";display: table;clear: both;}
+.smart-ctas-page {max-width: 865px;}
+.left-icon-logo img {width: 23px;float: left;margin-right: 6px;}
+.input-lft-mrg-field {padding-left: 28px;}
+.max-width-95 {width: 100%;max-width: 95%;}
+@media (min-width: 768px) {
+.col-md-4 {width: 33.33%;float: left;box-sizing: border-box;}
+.margin-top-24{margin-top: 24px;}
+}
+@media (max-width: 767px) {
+.col-sm-12 {width: 100%;margin-bottom: 20px;box-sizing: border-box;}
+}
+
+.extend-area {
+    max-width: 100% !important;
+}
+
+
+.splashmaker_page_splash_form_gate input#submit_color[disabled="disabled"],
+input.button-primary.main_save[disabled="disabled"]{
+    margin-top: 12px;
+    color: hsla(0,0%,100%,.4) !important;
+    background: #007cba !important;
+    border-color: #007cba !important;
+    opacity: 1;
+    outline: none;
+  
+}
+
+
+
+/*****************************************************/
+.outer-mask {
+    position: relative;
+    width: auto;
+    display: initial;
+}
+span.tooltip123 {
+    position: absolute;
+    top: -46px;
+    background: #9c9c9c;
+    color: #fff;
+    line-height: 20px;
+    padding: 7px 15px;
+    border-radius: 9px;
+    box-shadow: none;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    max-width: 100px;
+    text-align:center;
+    width: 100px;
+    z-index: 99999;
+}
+span.tooltip123:after {
+   content: "";
+    position: absolute;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #9c9c9c;
+    transform: rotate(90deg);
+    left: 0 !important;
+    right: 0;
+    bottom: -69px;
+    z-index: 99999;
+}
+form#splash_savee .holder.ui-sortable .block{
+    overflow: visible;
+}
+form#splash_savee .holder.ui-sortable.field-section-margin{
+    width: 100%;
+    float: left;
+}
+form#splash_savee .holder.ui-sortable span.tooltip123{
+    left:10% impo !important;
+}
+form#splash_savee .block {
+    margin-bottom: 19px;
+    margin-top: 12px;
+}
+/*commented by kuldeep*/
+form#splash_savee .block_new.block.margin-top-zero{
+    margin-bottom: 0px;   
+}
+/*commented by kuldeep*/
+
+form#splash_savee .holder.ui-sortable span.tooltip123 {
+    left: -241px !important;
+    right: unset !important;
+    margin-left: 2% !important;
+    float: left;
+    position: absolute;
+}
+.holder-block-margin {
+    float: left;
+    width: 100%;
+    margin: 0 !important;
+    margin-bottom: 13px !important;
+}
+.holder-block-margin:last-child{
+    margin-bottom: 0px !important;   
+}
+.block1.field-label-margin-b {
+    float: left;
+    width: 100%;
+    margin: 0 !important;
+    margin-bottom: 4px !important;
+}
+.block1.field-label-margin-b>div:nth-child(2) {
+    margin-left: 10px;
+}
+.block1.field-label-margin-b>div:first-child, .block1.field-label-margin-b>div:last-child {
+    margin-left:  0px;
+}
+/* form#splash_savee .outer-mask {
+    position: relative;
+    float: left;
+    min-width: 328px;
+}
+form#splash_savee .outer-mask input{
+    width: 100%;
+} */
+
+.removemargin{
+    margin-left: 0  !important;
+}
+
+input[disabled],input[disabled]#submit {
+    color: hsla(0,0%,100%,.4)!important;
+    background: #007cba !important;
+    border:1px solid #007cba !important;    
+}
+
+
+li#toplevel_page_splashmaker > ul > li:last-child a,
+li#toplevel_page_splashmaker  ul.wp-submenu.wp-submenu-wrap >  li:last-child a{
+    color: #a4e5fc !important;
+}
+
+
+/* FROM SPLASHMAKER ADMIN CSS FILE IN ROOT */
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/***************************************** analytics list*************************************** */
+.list-box1 {
+    width: 32%;
+    float: left;
+    overflow: hidden;
+    display: block;
+    margin-right: 1%;
+}
+.list-desc {
+    display: block;
+    overflow: hidden;
+    
+}
+.data_point {
+    margin-top: 3em;
+}
+.col1 {
+    padding: 1em;
+    border: 1px solid #7e8993;
+    border-radius: 5px;
+    background: #eeeeee;
+}
+.sec-analytic {
+    font-size: 14px;
+}
+.col1_width {
+    width: 20% !important;
+    float: left;
+}
+.col2_width {
+    width: 15%px !important;
+    float: left;
+    margin-left: 8px;
+}
+.col3_width {
+    float: left;
+    width: 20%;
+    margin-left: 8px;
+}
+.block .button.add{
+    margin-left: 0px;
+}
+.block .button{
+    float: left;
+    margin-left: 8px;
+}
+
+  /* ******************************************** hubspot logo section ****************************************** */
+.section-desc {
+    overflow: hidden;
+    display: block;
+}
+.img-logo {   
+    float: left;
+}
+img.thumbnail-logo {
+    width: 45px;
+    position: relative;
+    top: 6px;
+}
+.connect_btn {
+    width: 25%;
+}
+/* ******************************************splashmaker logo***************************************** */
+
+/* ***************************************all button **********************************/
+.remove, .add {
+    cursor: pointer !important;
+}
+.block input {
+    vertical-align: middle;    
+}
+/* .button, .button-primary{
+    cursor: default !important;
+} */
+/* ****************************************Personalization form***************************************** */
+.block {    
+    overflow: hidden;
+    display: block;
+    clear: both;
+    margin-top: 12px;
+}
+.section1 {
+    float: left;
+    width: 16%;   
+    font-weight: 700;
+}
+.section2 {
+    float: left;
+    width: 15%;   
+    font-weight: 700;
+}
+.section3 {    
+    font-weight: 700;
+}
+/* personalization top tip */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 287px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    padding: 5px 20px;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .6s;
+    /*top: -30px;*/
+    top: -8px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.tooltip-top {
+   z-index: 9999; 
+   
+}
+input.token_field {
+    width: 19%;
+}
+span.button.button-default {
+    vertical-align: middle;
+}
+.tooltip {
+    position: absolute;
+    display: inline-block;    
+    color: #006080;
+    cursor: help;
+    z-index: 9999; 
+    margin-left: 2px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip-top::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+
+.block.email .tooltip {
+    display: inline-block;
+}
+./*block .tooltip {
+    display: none;
+}*/
+select.selected_option_label {
+    background: #fff;    
+    font-size: 16px;   
+    padding: 1.5rem 1.8rem;
+    width: 100%;
+    border-color: #dbdbdb;
+}
+/* *********************************hubspot mapping design***************************************** */
+.map_to {
+    text-decoration: none;
+    /* padding: 0px 17%; */
+}
+.heading {
+       
+    font-weight: 700;
+}
+.personaliztion_field {
+    overflow: hidden;
+    display: block;
+}
+.hubspot_sec {
+    float: left; 
+    width: 29%;
+}
+.form_sec {
+    float: left; 
+    width: 25%;
+}
+.hubspot_sec select {
+    width: 98%;
+}
+.hubspot_token input {
+    vertical-align: middle;
+    width: 200px;
+   
+}
+.container_sec {
+    line-height: 3;
+}
+.setting_btn {
+    float: left;
+    width: 80%;
+}
+.exit_btn {    
+    position: relative;
+    top: 1em;
+}
+.form_sec select {
+    width: 70%;
+    margin-right: 0.5em;
+}
+/* **************************dynamic content driver section**************************  */
+.dynamic_section {
+    /*line-height: 2;*/
+    margin-bottom: 2em;
+}
+.dynamic_content {
+    width: 15%;
+}
+select.dynamic_content{
+    border-radius: 4px;
+    border: 1px solid #060606 !important;
+    background-color: #eee !important;
+    color: #000 !important;
+}
+
+
+/* **********************************************Integration script**************************************************** */
+.splash-box {
+    /*width: 85%;*/ /*commented by kuldeep*/
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 0px 12px 12px;
+}
+.splash-input {
+    width: 35%;
+    padding: 0.5em;
+}
+.add_new_qa {
+    float: right;
+}
+/****************************Media Query************************************************** */
+@media only screen and (max-width: 1170px) {
+    /* for hubspot mapping */
+    .form_sec select {
+        width: 60%;
+       
+    }
+  }
+
+@media only screen and (max-width: 828px) {
+      /* for analytics */
+    .list-box1 {
+        width: 45%;
+        
+    }
+  }
+@media only screen and (max-width: 520px) {
+    /* for analytics */
+    .list-box1 {
+        width: 100%;
+        
+    }
+  }
+
+ /*Commented by kuldeep*/
+.splashmaker_page_splash_form_gate div.Added-Fields .block
+{
+    margin-top: 0px !important;
+}
+.splashmaker_page_splash_activation_dashboard .sec__video{
+    padding-bottom: 50px;
+}
+div.admin_notices_container h2{
+    line-height: 1.5;
+    margin: 0;
+}
+.section3.tooltip i.fa.fa-question-circle{
+/*    top: 2px;*/
+    position: relative;
+}  
+.section3.tooltip span.DCD_span{
+    top: 6px;
+    position: relative;    
+    color: #3c434a;
+    font-weight: 400;
+}
+.section3.tooltip span.tooltiptext.tooltip-top:after,
+.smart-ctas-page .tooltip span.tooltiptext.tooltip-top:after{
+    top: 18px !important;
+}
+.block1.field-label-margin-b div.section3.col1_width{
+    position: relative;
+    left: 8px;
+}
+.dynamic_section select.col3_width{
+    background-color: #f0f0f1;color: #2c3338;opacity: 1;
+}
+.dynamic_section .col3_width.shortcode{
+    vertical-align: top;margin-top: -26px;
+}
+p#unsave{ display:none;color:red; }
+.splash_save_to_local span#success,
+.splash_save_to_local span#error{
+    color: green;
+}
+div.setting_field table.form-table tr td input#app_token,
+div.setting_field table.form-table tr td input#app_token_refresh,
+div.setting_field table.form-table tr td button#save_token{
+    display:none;
+}
+div.setting_field table.form-table tr td button#save_token {
+    margin-left: 5px; 
+}
+input.HubSpot_SmartLink_Generator{
+    max-width: 91%;
+    width:100%;
+}
+body.splashmaker_page_splash_hubspot .setting_field .crm_fields_table .crm_field,
+body.splashmaker_page_splash_hubspot .crm_fields_table.show_api_key{
+    display: none;
+}
+body.splashmaker_page_splash_hubspot .HubSpot_Access{
+    margin-bottom: 2em; 
+    display: block;
+}
+/*body.splashmaker_page_splash_hubspot .HubSpot_Access .crm_fields_table .crm_field_cell1 label{
+    margin-top: 12px;    
+}*/
+body.splashmaker_page_splash_hubspot .HubSpot_Access .sf_login.connect_btn.successful_conneted{
+    background: #FF7A59; color: white; border-color: #0e0e0e;
+}
+.crm_fields_table .crm_field_cell1 label{
+    cursor: default;
+}
+.splash-outter-box .splash-box{
+    overflow:hidden; 
+    padding-bottom: 2em;
+}
+.splash-outter-box .splash-box div.title.setting_btn{
+    position: relative; 
+    top: 8px; 
+    left: 9px;
+}
+/*.wp-core-ui .button,
+.wp-core-ui .button-secondary,
+.tooltip {
+    color: #0e76bc;
+}*/
+table.form-table td input#site_id {
+    width: 340px;
+}
+.sf_login.connect_btn.sf_login-help.disabled{
+    color: hsla(0,0%,100%,.4) !important;
+    background: #007cba !important;
+    border-color: #007cba !important;
+    opacity: 1;
+    outline: none;
+}
+.splashmaker_page_splash_hubspot .splash-outter-box .setting_field th, 
+.splashmaker_page_splash_hubspot .splash-outter-box .setting_field td {
+    padding: 5px 5px 5px 0px;
+    text-align: left;
+    line-height: 28px;
+}
+.splash-outter-box th, .splash-outter-box td {
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    line-height: 28px;
+}
+.more_settings .splash-outter-box th, .more_settings .splash-outter-box td {
+    padding: 5px 5px 5px 0px;
+    text-align: left;
+    line-height: 28px;
+}
+.splashmaker_page_splash_form_gate input#submit_color, .splashmaker_page_splash_hubspot input#submit_color {
+    margin-top: 12px;
+}
+.content_splash .CTA_smartLink_description {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.content_splash .CTA_smartLink_tags b, .content_splash .CTA_smartLink_tags div {
+    line-height: 1.6;
+}
+.splash_script p.submit{
+    padding: 5px 5px 5px 5px;
+}
+@media (min-width: 993px){
+    .splashmaker_page_splash_activation_dashboard .section__wrapper{display: grid;grid-template-columns: 29% 69%;column-gap: 2%;}
+    .splashmaker_page_splash_activation_dashboard .header__text {  width: 100%;     }
+}
+/*Commented by kuldeep ends */

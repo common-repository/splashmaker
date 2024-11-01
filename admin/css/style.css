@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+}
+/*/header start*/
+.header__inner{
+    background: linear-gradient(90deg, rgba(27,117,187,1) 0%, rgba(46,135,199,1) 40%, rgba(81,170,222,0.7903536414565826) 100%);
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clr-white{color:#fff;}
+.btn{
+    background-color: #f3f5f6;
+    padding: 15px 25px;
+    color: #d82a22;
+    font-weight: 600;
+    border: 1px solid #74787b;
+    border-radius: 5px;
+}
+/*header end*/
+/* splashpush content section start*/
+.sec__text{
+    background-color: #f1f1f1;
+}
+
+.sec__heading h4{
+    margin-bottom: 15px;
+}
+.sec__info{
+    width: 100%;
+}
+.form__heading h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+.password__labal input{width: 100%;margin: 4px 0px 8px 0px;}
+input:focus{outline: none;}
+.passwod_btn{text-align: center;}
+.passwod_btn input.button{margin-top: 15px;font-weight: 400;}
+
+.sec__video{
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+	background:#fff;
+}
+
+.logo img{width: 160px;}
+
+.video{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.basic-package{
+    margin-top: 30px;
+}
+.image-responsive{
+	max-width:100%;
+}
+
+@media (min-width: 993px){
+.section__wrapper{display: grid;grid-template-columns: 29% 69%;column-gap: 2%;}
+
+.splashmaker_page_splash_activation_dashboard .header__text {
+    width: 100%;
+}
+a.button.learn_more_sp {
+    float: right;
+    padding: 8px 21px;
+    line-height: 25px;
+    margin-top: -10px;
+    font-size: 15px;
+}
+}
+@media (min-width: 993px) {
+	.continue__btn {
+		background: #0f729f !important;
+		color: #fff !important;
+		border-radius: 0 !important;
+		padding: 3px 40px !important;
+	}
+	button.continue__btn.button a {
+		color: #fff !important;
+	}
+}
+
+.sec__text{padding: 50px 15px 10px 15px;}
+.activation__form{margin-top: 35px;}
+.sec__video button.continue__btn {margin-bottom: 200px;}
+
+@media (max-width: 992px){
+.sec__text{text-align: center;padding: 0px 15px 45px 15px;}
+.sec__info{max-width: 600px;margin: 0px auto;}
+.activation__form{margin-top: 20px;margin-bottom: 25px;}
+.passwod_btn{margin: 0px auto;}
+.password__labal input{max-width: 360px;}
+.sec__video button.continue__btn {margin-bottom: 45px;}
+}
+
+
+/* splashpush content section end*/

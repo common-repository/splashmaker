@@ -1,0 +1,4 @@
+[05-Sep-2020 06:29:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home2/tivrabiz/boldertechstagging1.tivra.biz/wp-content/plugins/splashmaker/admin/config.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/tivrabiz/boldertechstagging1.tivra.biz/wp-content/plugins/splashmaker/admin/config.php on line 2
